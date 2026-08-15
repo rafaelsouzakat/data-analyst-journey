@@ -19,6 +19,7 @@ Land my first opportunity as a Data Analyst (internship or junior role), focused
 
 ```
 data-analyst-journey/
+├── data/             # sample databases used in the exercises
 ├── sql/              # exercises and queries by topic
 ├── python-pandas/    # practice notebooks with pandas
 └── README.md
