@@ -216,3 +216,7 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# stop versioning
+python-pandas/data/*.csv
+python-pandas/data/*.pdf
