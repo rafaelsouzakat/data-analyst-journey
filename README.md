@@ -1,36 +1,36 @@
 # Data Analyst Journey
 
-Repositório de estudos onde documento minha transição para a área de Data Analysis, com foco em SQL, Python e Power BI.
+Study repository where I document my learning into the Data Analysis field, focused on SQL, Python, and Power BI.
 
-## 🎯 Objetivo
+## 🎯 Goal
 
-Conseguir minha primeira oportunidade como Data Analyst (estágio ou júnior), com foco em vagas remotas internacionais, sem abrir mão de boas oportunidades no Brasil.
+Land my first opportunity as a Data Analyst (internship or junior role), focused on remote international positions, while staying open to good opportunities in Brazil.
 
-## 🗺️ Plano de estudo
+## 🗺️ Study Plan
 
-| Fase | Foco | Status |
+| Phase | Focus | Status |
 |------|------|--------|
-| 1 — Fundação | SQL (básico → avançado) e Python/Pandas | 🔄 Em andamento |
-| 2 — Visualização | Power BI + projetos guiados | ⏳ A começar |
-| 3 — Portfólio próprio | Projeto autoral com dataset do Kaggle | ⏳ A começar |
-| 4 — Aplicação | Prática de entrevista técnica + candidaturas | ⏳ A começar |
+| 1 — Foundations | SQL (basics → advanced) and Python/Pandas | 🔄 In progress |
+| 2 — Visualization | Power BI + guided projects | ⏳ Not started |
+| 3 — Own portfolio | Original project with a Kaggle dataset | ⏳ Not started |
+| 4 — Applying | Technical interview practice + applications | ⏳ Not started |
 
-## 📁 Estrutura
+## 📁 Structure
 
 ```
 data-analyst-journey/
-├── sql/              # exercícios e queries por tema
-├── python-pandas/    # notebooks de prática com pandas
+├── sql/              # exercises and queries by topic
+├── python-pandas/    # practice notebooks with pandas
 └── README.md
 ```
 
-## 📌 Log de progresso
+## 📌 Progress Log
 
-Vou atualizar essa seção conforme avanço, com data e o que foi estudado.
+I'll update this section as I go, with the date and what I studied.
 
-- **[14/08/2026]** — Repositório criado, início da Fase 1 (SQL + Python).
+- **[August/14/2026]** — Repository created, starting Phase 1 (SQL + Python).
 
-## 🔗 Contato
+## 🔗 Contact
 
 - LinkedIn: [https://www.linkedin.com/in/rafael-souza-katahira-5a56322b6/]
 - GitHub: [https://github.com/rafaelsouzakat]
