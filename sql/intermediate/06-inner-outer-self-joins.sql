@@ -1,0 +1,68 @@
+-- Joins
+-- they allow us to combine 2 tables or more together if they have a common column with similar data
+-- we are going to see inner joins, outer joins and self joins
+
+SELECT *
+FROM employee_demographics;
+
+SELECT *
+FROM employee_salary;
+
+-- Inner Joins: will return rows that are the same in both columns from both tables
+SELECT *
+FROM employee_demographics
+INNER JOIN employee_salary
+	ON employee_demographics.employee_id = employee_salary.employee_id;
+    
+SELECT dem.employee_id, age, occupation
+FROM employee_demographics AS dem		# aliasing is used here
+INNER JOIN employee_salary AS sal		# aliasing is used here
+	ON dem.employee_id = sal.employee_id;
+    
+
+-- Outer Joins
+-- for Outer Joins we have a right outer join and a left outer join
+-- a left join is going to get everything from the left table and only return the matches from the right table
+SELECT *
+FROM employee_demographics AS dem		# the left table is the table on the FROM statement		
+LEFT OUTER JOIN employee_salary AS sal		
+	ON dem.employee_id = sal.employee_id;
+    
+SELECT *
+FROM employee_demographics AS dem		# the left table is the table on the FROM statement		
+RIGHT OUTER JOIN employee_salary AS sal		
+	ON dem.employee_id = sal.employee_id;
+    
+-- Self Join
+-- it is a join where you tie a table to itself
+
+SELECT * 
+FROM employee_salary AS emp1
+JOIN employee_salary AS emp2
+	ON emp1.employee_id + 1 = emp2.employee_id;
+# a secret Santa for example
+
+SELECT emp1.employee_id AS emp_santa,
+emp1.first_name AS first_name_santa,
+emp1.last_name AS last_name_santa,
+emp2.employee_id AS emp_name,
+emp2.first_name AS first_name_emp,
+emp2.last_name AS last_name_emp
+FROM employee_salary AS emp1
+JOIN employee_salary AS emp2
+	ON emp1.employee_id + 1 = emp2.employee_id;
+    
+    
+-- Joining multiple tables together
+-- this works if the tables have common columns between them
+SELECT *
+FROM employee_demographics AS dem		
+INNER JOIN employee_salary AS sal		
+	ON dem.employee_id = sal.employee_id
+INNER JOIN parks_departments AS pd
+	ON sal.dept_id = pd.department_id;
+    
+SELECT *
+FROM parks_departments;
+# this is just a reference table
+# it usually doesn't have duplicates
