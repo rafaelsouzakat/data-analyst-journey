@@ -32,6 +32,7 @@ I'll update this section as I go, with the date and what I studied.
 - **[August/14/2026]** — Repository created, starting Phase 1 (SQL + Python).
 - **[August/15/2026]** — Completed the begginer SQL section lessons (with MySQL).
 - **[August/15/2026]** — Completed the practice of installing, loading and reading data from csv files with the pandas library.
+- **[August/16/2026]** — Completed the practice of JOINS, UNIONS and String Functions from MySQL intermediate lessons.
 
 ## 🔗 Contact
 
