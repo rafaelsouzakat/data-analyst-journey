@@ -35,6 +35,7 @@ I'll update this section as I go, with the date and what I studied.
 - **[August/16/2026]** — Completed the practice of JOINS, UNIONS and String Functions from MySQL intermediate lessons.
 - **[August/17/2026]** — Completed the intermediate SQL section lessons
 - **[August/17/2026]** — Completed the practice of DataFrames and Series objects basics with the use of pandas library.
+- **[August/18/2026]** — Completed 4 practice lessons from the kaggle SQL course.
 
 ## 🔗 Contact
 
