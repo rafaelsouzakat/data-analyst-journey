@@ -20,8 +20,8 @@ Land my first opportunity as a Data Analyst (internship or junior role), focused
 ```
 data-analyst-journey/
 ├── data/             # sample databases used in the exercises
-├── sql/              # exercises and queries by topic
 ├── python-pandas/    # practice notebooks with pandas
+├── sql/              # exercises and queries by topic
 └── README.md
 ```
 
@@ -36,6 +36,7 @@ I'll update this section as I go, with the date and what I studied.
 - **[August/17/2026]** — Completed the intermediate SQL section lessons
 - **[August/17/2026]** — Completed the practice of DataFrames and Series objects basics with the use of pandas library.
 - **[August/18/2026]** — Completed 4 practice lessons from the kaggle SQL course.
+- **[August/19/2026]** — Completed 1 practice lesson from the kaggle SQL course and learned about indexes with python pandas.
 
 ## 🔗 Contact
 
