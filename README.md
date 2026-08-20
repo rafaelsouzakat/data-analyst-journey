@@ -37,6 +37,7 @@ I'll update this section as I go, with the date and what I studied.
 - **[August/17/2026]** — Completed the practice of DataFrames and Series objects basics with the use of pandas library.
 - **[August/18/2026]** — Completed 4 practice lessons from the kaggle SQL course.
 - **[August/19/2026]** — Completed 1 practice lesson from the kaggle SQL course and learned about indexes with python pandas.
+- **[August/20/2026]** — Completed sixth and final lesson from the kaggle SQL course (I got the completion certificate) and learned about filtering data with python pandas.
 
 ## 🔗 Contact
 
