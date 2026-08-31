@@ -41,6 +41,7 @@ I'll update this section as I go, with the date and what I studied.
 - **[August/21/2026]** — Learned about CTEs and TempTables with MySQL and started learning about updating data with python pandas.
 - **[August/23/2026]** — Completed MySQL Advanced Series lessons and finished lesson about updating data with python pandas.
 - **[August/27/2026]** — Learned about adding/removing and about sorting data with python pandas.
+- **[August/31/2026]** — Learned about grouping and aggregating data with python pandas.
 
 ## 🔗 Contact
 
