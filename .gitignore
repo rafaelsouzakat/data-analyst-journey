@@ -220,3 +220,6 @@ __marimo__/
 # stop versioning
 python-pandas/data/*.csv
 python-pandas/data/*.pdf
+python-pandas/data/*.tsv
+python-pandas/data/*.xlsx
+python-pandas/data/*.json
