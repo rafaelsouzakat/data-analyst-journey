@@ -43,6 +43,7 @@ I'll update this section as I go, with the date and what I studied.
 - **[August/27/2026]** — Learned about adding/removing and about sorting data with python pandas.
 - **[August/31/2026]** — Learned about grouping, aggregating and cleaning data with python pandas.
 - **[September/01/2026]** — Learned about Dates and Time data with python pandas
+- **[September/02/2026]** — Finished all 11 lessons about python pandas
 
 ## 🔗 Contact
 
