@@ -20,6 +20,7 @@ Land my first opportunity as a Data Analyst (internship or junior role), focused
 ```
 data-analyst-journey/
 ├── data/             # sample databases used in the exercises
+├── excel-begginer-lessons/  # excel lessons
 ├── python-pandas/    # practice notebooks with pandas
 ├── sql/              # exercises and queries by topic
 └── README.md
@@ -44,6 +45,7 @@ I'll update this section as I go, with the date and what I studied.
 - **[August/31/2026]** — Learned about grouping, aggregating and cleaning data with python pandas.
 - **[September/01/2026]** — Learned about Dates and Time data with python pandas
 - **[September/02/2026]** — Finished all 11 lessons about python pandas
+- **[September/05/2026]** — Finished the begginer excel exercises
 
 ## 🔗 Contact
 
