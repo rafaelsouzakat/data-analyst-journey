@@ -22,6 +22,7 @@ data-analyst-journey/
 ├── data/             # sample databases used in the exercises
 ├── excel-begginer-lessons/  # excel lessons
 ├── python-pandas/    # practice notebooks with pandas
+├── python-web-scraping/    # notebooks to practice web scraping
 ├── sql/              # exercises and queries by topic
 └── README.md
 ```
