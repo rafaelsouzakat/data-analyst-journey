@@ -19,11 +19,12 @@ Land my first opportunity as a Data Analyst (internship or junior role), focused
 
 ```
 data-analyst-journey/
-├── data/                    # sample databases used in the exercises
-├── excel-begginer-lessons/  # excel lessons
-├── python-pandas/           # practice notebooks with pandas
-├── python-web-scraping/     # notebooks to practice web scraping
-├── sql/                     # exercises and queries by topic
+├── data/                      # sample databases used in the exercises
+├── excel-begginer-lessons/    # excel lessons
+├── powerBI-begginer-lessons/  # powerBI lessons
+├── python-pandas/             # practice notebooks with pandas
+├── python-web-scraping/       # notebooks to practice web scraping
+├── sql/                       # exercises and queries by topic
 └── README.md
 ```
 
