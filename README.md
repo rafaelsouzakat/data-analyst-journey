@@ -48,7 +48,8 @@ I'll update this section as I go, with the date and what I studied.
 - **[September/01/2026]** — Learned about Dates and Time data with python pandas
 - **[September/02/2026]** — Finished all 11 lessons about python pandas
 - **[September/05/2026]** — Finished the begginer excel exercises
-- **[September/07/2026]** — Completed a guided project about web scraping with Python 
+- **[September/07/2026]** — Completed a guided project about web scraping with Python
+- **[September/12/2026]** — Completed 2 lessons about PowerBI
 
 ## 🔗 Contact
 
