@@ -10,8 +10,8 @@ Land my first opportunity as a Data Analyst (internship or junior role), focused
 
 | Phase | Focus | Status |
 |------|------|--------|
-| 1 — Foundations | SQL (basics → advanced) and Python/Pandas | 🔄 In progress |
-| 2 — Visualization | Power BI + guided projects | ⏳ Not started |
+| 1 — Foundations | SQL (basics → advanced) and Python/Pandas | ✅ Finished |
+| 2 — Visualization | Power BI + guided projects | 🔄 In progress |
 | 3 — Own portfolio | Original project with a Kaggle dataset | ⏳ Not started |
 | 4 — Applying | Technical interview practice + applications | ⏳ Not started |
 
@@ -51,6 +51,7 @@ I'll update this section as I go, with the date and what I studied.
 - **[September/07/2026]** — Completed a guided project about web scraping with Python
 - **[September/12/2026]** — Completed 2 lessons about PowerBI
 - **[September/14/2026]** — Completed 2 more lessons about PowerBI
+- **[September/15/2026]** — Completed all the begginer PowerBI lessons an started phase 2
 
 ## 🔗 Contact
 
