@@ -1,0 +1,59 @@
+Problema 1
+
+Na prática de hoje, vamos usar o conjunto de dados "Student Performance" do UCI Machine Learning Repository, que contém informações sobre o desempenho de alunos. Faremos a junção, recombinação e reformatação dos dados usando pandas.
+
+1)Carregar os Dados
+Vamos carregar os dados diretamente do URL disponível. O conjunto de dados é dividido em duas partes: informações dos alunos e suas notas.
+# URL dos dados
+url_students = "https://archive.ics.uci.edu/ml/machine-learning-databases/00320/student.zip"
+
+# Baixar o arquivo ZIP
+response = requests.get(url_students)
+response.raise_for_status()  # Verificar se o download foi bem-sucedido
+
+# Extrair os arquivos CSV do ZIP
+with zipfile.ZipFile(io.BytesIO(response.content)) as z:
+    # Ler os dados dos arquivos CSV dentro do ZIP
+    with z.open('student-mat.csv') as f_math:
+        df_math = pd.read_csv(f_math, sep=';')
+    with z.open('student-por.csv') as f_por:
+        df_por = pd.read_csv(f_por, sep=';')
+
+2)Junção dos DataFrames
+Vamos juntar os DataFrames de matemática e português com base no ID dos alunos.
+
+3) Recombinação dos Dados
+Vamos calcular a média das notas em ambas as disciplinas.
+
+4)  Reformatação dos Dados
+Vamos reformular os dados para que as notas de cada disciplina sejam representadas em um formato mais visual.
+
+Problema 2
+
+1)Carregar os Dados
+Neste exemplo, vamos usar duas tabelas: uma com as temperaturas médias globais e outra com as temperaturas médias por continente.
+import pandas as pd
+
+# URL dos dados de temperaturas globais
+url_global_temp = "https://raw.githubusercontent.com/owid/co2-data/master/owid-co2-data.csv"
+url_continental_temp = "https://raw.githubusercontent.com/datasets/global-temp/master/data/monthly.csv"
+
+# Carregar os dados
+df_global_temp = pd.read_csv(url_global_temp)
+df_continental_temp = pd.read_csv(url_continental_temp)
+
+print("DataFrame de Temperatura Global:")
+print(df_global_temp[['year', 'co2']].head())
+print("\nDataFrame de Temperatura Continental:")
+print(df_continental_temp.head())
+
+2) Junção dos Dados
+Vamos unir os DataFrames com base no ano.
+
+3) Recombinação dos Dados
+Vamos calcular a correlação entre as temperaturas médias e os níveis de CO2.
+
+4) Reformatação dos Dados
+Vamos reformular os dados para mostrar as temperaturas médias em formato largo, com anos como colunas.
+
+5) faça a análise exploratória dos dados para gerar insights preditivos.

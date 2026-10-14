@@ -1,0 +1,155 @@
+import pandas as pd
+import numpy as np
+
+# Criando um DataFrame com valores ausentes
+df = pd.DataFrame({
+    'A': [1, 2, np.nan, 4],
+    'B': [np.nan, 2, 3, 4],
+    'C': [1, np.nan, np.nan, 4]
+})
+
+print("DataFrame original:")
+print(df)
+
+# Remover linhas com qualquer valor ausente
+df_dropped_rows = df.dropna()
+print("\nDataFrame após remover linhas com valores ausentes:")
+print(df_dropped_rows)
+
+# Remover colunas com qualquer valor ausente
+df_dropped_cols = df.dropna(axis=1)
+print("\nDataFrame após remover colunas com valores ausentes:")
+print(df_dropped_cols)
+
+# Remover linhas onde todos os valores são ausentes
+df_dropped_all_rows = df.dropna(how='all')
+print("\nDataFrame após remover linhas onde todos os valores são ausentes:")
+print(df_dropped_all_rows)
+
+# Remover linhas com menos de 3 valores não ausentes
+df_dropped_thresh = df.dropna(thresh=3)
+print("\nDataFrame após remover linhas com menos de 3 valores não ausentes:")
+print(df_dropped_thresh)
+
+# Remover linhas com valores ausentes apenas nas colunas especificadas
+df_dropped_subset = df.dropna(subset=['A', 'B'])
+print("\nDataFrame após remover linhas com valores ausentes nas colunas 'A' e 'B':")
+print(df_dropped_subset)
+
+
+
+import pandas as pd
+import numpy as np
+
+# Criando um DataFrame com valores ausentes
+df = pd.DataFrame({
+    'A': [1, 2, np.nan, 4],
+    'B': [np.nan, 2, np.nan, 4],
+    'C': [1, np.nan, np.nan, 4]
+})
+
+print("DataFrame original:")
+print(df)
+
+# Preencher valores ausentes com um valor específico
+df_filled_value = df.fillna(value=0)
+print("\nDataFrame após preencher valores ausentes com 0:")
+print(df_filled_value)
+
+# Preencher valores ausentes usando forward fill
+df_filled_ffill = df.fillna(method='ffill')
+print("\nDataFrame após preencher valores ausentes com forward fill:")
+print(df_filled_ffill)
+
+# Preencher valores ausentes usando backward fill
+df_filled_bfill = df.fillna(method='bfill')
+print("\nDataFrame após preencher valores ausentes com backward fill:")
+print(df_filled_bfill)
+
+# Preencher valores ausentes com valores diferentes para cada coluna
+df_filled_dict = df.fillna(value={'A': 0, 'B': 1, 'C': 2})
+print("\nDataFrame após preencher valores ausentes com valores diferentes para cada coluna:")
+print(df_filled_dict)
+
+# Preencher valores ausentes apenas nas colunas especificadas
+df_filled_subset = df.fillna(value={'A': 0, 'C': 2})
+print("\nDataFrame após preencher valores ausentes apenas nas colunas 'A' e 'C':")
+print(df_filled_subset)
+
+
+import pandas as pd
+import numpy as np
+
+# Criando um DataFrame com valores ausentes
+df = pd.DataFrame({
+    'A': [1, 2, np.nan, 4],
+    'B': [np.nan, 2, np.nan, 4],
+    'C': [1, np.nan, np.nan, 4]
+})
+
+print("DataFrame original:")
+print(df)
+
+# Verificar valores ausentes
+df_isnull = df.isnull()
+print("\nDataFrame com valores booleanos indicando NaNs:")
+print(df_isnull)
+
+# Contar valores ausentes por coluna
+print("\nContagem de valores ausentes por coluna:")
+print(df.isnull().sum())
+
+# Contar valores ausentes por linha
+print("\nContagem de valores ausentes por linha:")
+print(df.isnull().sum(axis=1))
+
+
+import pandas as pd
+import numpy as np
+
+# Criando um DataFrame com valores ausentes
+df = pd.DataFrame({
+    'A': [1, 2, np.nan, 4],
+    'B': [np.nan, 2, np.nan, 4],
+    'C': [1, np.nan, np.nan, 4]
+})
+
+print("DataFrame original:")
+print(df)
+
+# Verificar valores não ausentes
+df_notnull = df.notnull()
+print("\nDataFrame com valores booleanos indicando não NaNs:")
+print(df_notnull)
+
+# Contar valores não ausentes por coluna
+print("\nContagem de valores não ausentes por coluna:")
+print(df.notnull().sum())
+
+# Contar valores não ausentes por linha
+print("\nContagem de valores não ausentes por linha:")
+print(df.notnull().sum(axis=1))
+
+
+import pandas as pd
+import numpy as np
+
+# Criando um DataFrame com valores ausentes
+df = pd.DataFrame({
+    'A': [1, np.nan, np.nan, 4],
+    'B': [np.nan, 2, np.nan, 4],
+    'C': [1, np.nan, np.nan, np.nan]
+})
+
+print("DataFrame original:")
+print(df)
+
+# Remover linhas com menos de 2 valores não ausentes
+df_dropped_thresh_rows = df.dropna(thresh=2)
+print("\nDataFrame após remover linhas com menos de 2 valores não ausentes:")
+print(df_dropped_thresh_rows)
+
+# Remover colunas com menos de 2 valores não ausentes
+df_dropped_thresh_cols = df.dropna(axis=1, thresh=2)
+print("\nDataFrame após remover colunas com menos de 2 valores não ausentes:")
+print(df_dropped_thresh_cols)

@@ -1,0 +1,36 @@
+Atividade 1:
+
+Dados fictícios de uma empresa e de um hotel:
+
+- Abra o arquivo csv em seu google colab
+- Confira a estrutura dos dados utilizando as funções str(empresa), head(empresa), tail(empresa). Avalie se o conjunto de dados se encontra dentro dos padrões esperados para análise.
+- Classifique  cada uma das variáveis.
+- Qual a classificação da variável Inst? Modifique para ordem.
+-Crie uma nova variável denominada Idade a partir de Anos e Meses.
+
+Faça isso para cada um dos datasets.
+
+Atividade 2:
+
+Baixe o dataset Titanic da base de dados Kaggle (https://www.kaggle.com/datasets/brendan45774/test-file)
+
+
+# Passo 1: Carregar o dataset
+
+
+# Passo 2: Explorar o dataset
+
+# Passo 3: Identificar e remover duplicatas
+
+# Verificar se há duplicatas
+
+# Passo 4: Preencher valores ausentes
+
+# Verificar valores ausentes por coluna
+
+
+# Verificar se ainda há valores ausentes
+
+# Exibir as primeiras linhas do DataFrame limpo
+
+ 
