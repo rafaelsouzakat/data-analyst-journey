@@ -17,7 +17,7 @@ Atualização do plano anterior: agora com **4h/dia** (em vez de 1h30), intercal
 
 Restam os roteiros "Preparar dados para análise com o Power BI" (4h33) e "Modelar dados com o Power BI" (5h50) ≈ 10h20 no total → cabe em 5 dias de 2h30.
 
-- [ ] **Dia 1** — "Preparar dados" — módulos 1 e 2
+- [x] **Dia 1** — "Preparar dados" — módulos 1 e 2
 - [ ] **Dia 2** — "Preparar dados" — módulos 3 e 4, finalizando o roteiro
 - [ ] **Dia 3** — "Modelar dados" — módulos 1 e 2
 - [ ] **Dia 4** — "Modelar dados" — módulos 3 e 4
