@@ -37,7 +37,7 @@ Restam os roteiros "Preparar dados para análise com o Power BI" (4h33) e "Model
 
 Leitura curta e prática imediata todo dia, nessa ordem (pule os capítulos de fundamentos de Python — você já tem essa base):
 
-- [ ] **Dia 1** — Cap. "Pandas: estruturas de dados" (Series e DataFrame) → prática: criar 2-3 Series/DataFrames do zero num notebook, indexar e fatiar
+- [x] **Dia 1** — Cap. "Pandas: estruturas de dados" (Series e DataFrame) → prática: criar 2-3 Series/DataFrames do zero num notebook, indexar e fatiar
 - [ ] **Dia 2** — Cap. "Carregamento e armazenamento de dados" (read_csv, read_excel, parâmetros comuns) → prática: ler o `parks_and_recreation` ou outro CSV pequeno do repo com 3 parâmetros diferentes de `read_csv`
 - [ ] **Dia 3** — Cap. "Limpeza e preparação de dados" (valores nulos, duplicatas, substituições) → prática: pegar um dataset pequeno com sujeira proposital (ou o `results.csv` do Codespaces) e tratar nulos/duplicatas
 - [ ] **Dia 4** — Cap. "Combinação e reformatação de dados" (merge, concat, join) → prática: criar 2 DataFrames pequenos e juntar com `merge` de 3 formas (inner, left, outer)
