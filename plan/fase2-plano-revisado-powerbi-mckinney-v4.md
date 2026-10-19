@@ -49,7 +49,7 @@ Se um módulo passar de 2h, pare no horário e continue no dia seguinte, sem com
 ## Cronograma
 
 ### Dia 1
-- [ ] **Power BI:** "Modelar dados com o Power BI" — módulos 1 e 2. Parte disso revisa relacionamentos e DAX das lições 03 e 04 que você já fez, então tende a andar mais rápido.
+- [x] **Power BI:** "Modelar dados com o Power BI" — módulos 1 e 2. Parte disso revisa relacionamentos e DAX das lições 03 e 04 que você já fez, então tende a andar mais rápido.
 - [ ] **Leitura:** McKinney, groupby — parte 1 (agregações múltiplas, `agg()`, named aggregation).
 - [ ] **Prática:** refaça uma análise do dataset Student Performance usando `groupby` + `agg()` com 2 ou 3 estatísticas ao mesmo tempo.
 
