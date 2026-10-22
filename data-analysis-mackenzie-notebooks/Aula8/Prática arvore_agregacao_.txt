@@ -1,0 +1,25 @@
+ATIVIDADE:
+
+Utilizando a base de dados Titanic ('https://raw.githubusercontent.com/datasciencedojo/datasets/master/titanic.csv'), responda às seguintes perguntas:
+
+1) Analisar os dados: verificar os tipos de variáveis, verificar dados ausentes, e visualizar estatísticas descritivas.
+
+2) Agrupar os dados para responder a perguntas relevantes, como a média da idade dos passageiros por classe e por sexo.
+
+3) Utilizar matplotlib e seaborn para criar gráficos que representem os dados agrupados.
+
+4) Agrupar e visualizar a taxa de sobrevivência por classe.
+
+5) Identificar e tratar valores ausentes.
+   Transformar variáveis categóricas em numéricas (ex.: usar pd.get_dummies).
+   Selecionar as características e o rótulo para a modelagem.
+
+6) Dividir o conjunto em treino e teste.
+
+7) Importar e treinar o modelo de árvore de decisão.
+   Visualizar a árvore de decisão -> procure estratégias para melhorar a visualização da árvore
+
+8) Realizar previsões no conjunto de teste.
+Calcular e interpretar as métricas de desempenho: acurácia, matriz de confusão, e relatório de classificação.
+
+9) Analisar a importância das características utilizadas na árvore de decisão.
