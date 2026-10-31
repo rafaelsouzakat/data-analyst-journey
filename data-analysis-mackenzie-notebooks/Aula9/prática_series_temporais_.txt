@@ -1,0 +1,32 @@
+Prática 1:
+
+1) Importar os dados e realizar a análise exploratória
+
+2)  Converter da coluna 'terrestrial_date' para formato de data
+
+3) Definir a coluna de data como o índice para facilitar a análise de séries temporais
+
+4) Visualização das primeiras linhas do DataFrame após os ajustes
+
+5) Plotando as séries temporais de temperatura mínima, máxima e pressão
+
+6) Temperaturas mínimas e máximas e Pressão atmosférica
+
+7) Estatísticas descritivas para min_temp, max_temp e pressure
+
+8) Decomposição da série temporal para min_temp e plotar o gráfico
+
+9) pegar uma variável exemplo
+
+10)  Ajustar o modelo ARIMA
+
+Parâmetros (p, d, q): você pode ajustá-los de acordo com a análise de autocorrelação e diferença, 
+Fazer previsões,  Calcular o erro (RMSE), Prever e exibir previsão para os próximos 10 dias.
+
+Prática 2: 
+
+Analisar a qualidade do ar em Pequim ao longo do tempo e criar um modelo de séries temporais para prever os níveis de PM2.5.
+
+# Carregar a base de dados diretamente do repositório online
+url = "https://archive.ics.uci.edu/ml/machine-learning-databases/00381/PRSA_data_2010.1.1-2014.12.31.csv"
+data = pd.read_csv(url)

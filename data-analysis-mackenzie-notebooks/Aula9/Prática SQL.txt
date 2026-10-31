@@ -1,0 +1,90 @@
+Prática SQL:
+
+1) Abra o Google Colab e inicie um novo notebook.
+2) Importe as bibliotecas necessárias.
+
+import sqlite3
+import pandas as pd
+
+3) Crie uma conexão com um banco de dados SQLite.
+
+# Conectar ao banco de dados SQLite
+conn = sqlite3.connect('escola.db')
+cursor = conn.cursor()
+
+4) Criação de Tabelas
+Vamos começar criando duas tabelas: alunos e cursos.
+
+# Criar tabela 'alunos'
+cursor.execute('''
+CREATE TABLE alunos (
+    id INTEGER PRIMARY KEY,
+    nome TEXT,
+    idade INTEGER,
+    cidade TEXT
+)
+''')
+
+# Criar tabela 'cursos'
+cursor.execute('''
+CREATE TABLE cursos (
+    id INTEGER PRIMARY KEY,
+    nome TEXT,
+    duracao INTEGER  -- duração em meses
+)
+''')
+
+# Confirmar as mudanças
+conn.commit()
+
+
+5) Inserindo Dados
+Vamos inserir alguns dados de exemplo nas tabelas alunos e cursos.
+
+# Inserir dados na tabela 'alunos'
+dados_alunos = [
+    (1, 'Alice', 20, 'São Paulo'),
+    (2, 'Bob', 22, 'Rio de Janeiro'),
+    (3, 'Carlos', 19, 'Belo Horizonte'),
+    (4, 'Diana', 21, 'Curitiba')
+]
+
+cursor.executemany('INSERT INTO alunos VALUES (?, ?, ?, ?)', dados_alunos)
+
+# Inserir dados na tabela 'cursos'
+dados_cursos = [
+    (1, 'Matemática', 6),
+    (2, 'História', 4),
+    (3, 'Biologia', 8),
+    (4, 'Química', 5)
+]
+
+cursor.executemany('INSERT INTO cursos VALUES (?, ?, ?)', dados_cursos)
+
+conn.commit()  # Confirmar a inserção
+
+6) Selecione todos os alunos e exiba as informações deles.
+
+7) Liste todos os cursos com duração superior a 5 meses.
+
+8) Atualize a idade do aluno "Carlos" para 20 anos.
+
+9) Exclua o curso de "História" da tabela cursos.
+
+10) Agora, crie uma tabela adicional matriculas para registrar quais alunos estão matriculados em quais cursos.
+
+11) Inserir alguns dados de matrícula.
+
+12)  Liste o nome dos alunos e os cursos em que estão matriculados.
+
+13) Conte o número de alunos matriculados em cada curso.
+
+14) Encontre a idade média dos alunos.
+
+15) Liste os alunos que estão matriculados em cursos com duração maior que 5 meses.
+
+16) Lembre-se de fechar a aplicação
+# Fechar a conexão
+conn.close()
+
+
